@@ -1,0 +1,9 @@
+/* TODO: Add you css code here*/
+.pushowl-notification-widget {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    background-color: #0371DC;
+    color: white;
+}
