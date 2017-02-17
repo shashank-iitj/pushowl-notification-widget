@@ -15,3 +15,6 @@ Step 3: `$gulp`
 
 Code the html of the widget in widget.js and the css in widget.css
 
+Notification widget:
+
+![Notification widget](https://storage.googleapis.com/pushowl/dump/notification.png "Notification Widget")
