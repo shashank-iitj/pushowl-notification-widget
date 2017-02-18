@@ -1,9 +1,80 @@
 /* TODO: Add you css code here*/
+/* Skipping !important tag for now
+    http://stackoverflow.com/questions/9245353/what-does-important-in-css-mean*/
+
+@font-face{
+    font-family: Roboto;
+    src: ('https://fonts.googleapis.com/css?family=Roboto');
+}
+
 .pushowl-notification-widget {
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    width: 35%;
+    height: calc(100% - 4px);
+    top: 0;
+    /*bottom: 10px;*/
+    z-index: 1000;
+    float: left;
+    display: block;
+    font-family: Roboto, sans-serif;
 
     background-color: #0371DC;
     color: white;
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.pushowl-notification-title {
+    color: #FFFFFF ;
+    text-align: left ;
+    font-weight: 600 ;
+    font-size: 1em ;
+    text-shadow: 2px 3px 2px rgba(0, 0,0, 0.26); 
+}
+
+.pushowl-n-w-25, .pushowl-n-w-75 {
+    float: left;
+    height: 150px;
+}
+
+.pushowl-n-w-25 {
+    width: 25%;
+    background-color: #0255a6 ;
+}
+.pushowl-n-w-25 img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.pushowl-n-w-75 {
+    width: calc(75% - 10px - 1px); /* 1px is for buffer*/
+    padding-left: 10px;
+}
+
+.pushowl-buttons-container {
+    padding: 5px;
+}
+
+.pushowl-buttons-container .pushowl-buttons {
+    height: 35px !important;
+    min-width: 120px !important;
+    background-color: #0255a6 !important;
+    border: none !important;
+    color: white !important;
+    text-align: center !important;
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    font-size: 16px !important;
+    font-weight: 600 ;
+    line-height: 35px !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    box-shadow: 2px 3px 2px rgba(0, 0,0, 0.26);
+}
+
+.pushowl-generic-container {
+    height: 50px;
+    padding-top: 15px;
 }
