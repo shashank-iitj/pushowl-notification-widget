@@ -16,6 +16,13 @@
 	-moz-transition: box-shadow 0.4s;
 	-o-transition: box-shadow 0.4s;
 	transition: box-shadow 0.4s;
+	animation: mymove 0.3s;
+	animation-timing-function: cubic-bezier(.64,.25,.8,1);
+}
+
+@keyframes mymove {
+	from {left: -96vw;}
+    to {left: 0px;}
 }
 .pushowl-notification-widget:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
