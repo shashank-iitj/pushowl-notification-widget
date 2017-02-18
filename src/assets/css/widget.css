@@ -10,9 +10,9 @@
 .pushowl-notification-widget {
     position: fixed;
     width: 35%;
-    height: calc(100% - 4px);
-    top: 0;
-    /*bottom: 10px;*/
+    height: 150px;
+    /*top: 0;*/
+    bottom: 10px;
     z-index: 1000;
     float: left;
     display: block;
