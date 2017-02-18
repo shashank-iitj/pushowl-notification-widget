@@ -16,7 +16,6 @@ var pushowl = {
                             <button class="pushowl-widget-action-btn">Yes</button>
                         </div>
                     </div>
-                    <div class="pushowl-widget-close-btn"></div>
                 </div>
             </div>`;
         // Insert the pushowl widget container
