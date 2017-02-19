@@ -52,7 +52,7 @@
 /* For desktop */
 @media only screen and (min-width: 768px) {
 	#pushowl-widget-container .pushowl-notification-widget {
-		margin: 10px !important;
+		margin: 0 0 39px 20px !important;
 		width: 400px !important;
 	}
 }
