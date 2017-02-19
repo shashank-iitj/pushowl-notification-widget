@@ -2,7 +2,7 @@
 
 /* Mobile first design */
 #pushowl-widget-container .pushowl-notification-widget {
-    z-index: 10000 !important;
+    z-index: 2147483647 !important;
     display: block !important;
     position: fixed !important;
     bottom: 0 !important;
