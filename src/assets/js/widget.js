@@ -6,8 +6,8 @@ var pushowl = {
         var widget = `
             <div id="pushowl-widget-container">
                 <div class="pushowl-notification-widget">
-                    <div class="pushowl-widget-icon-container">
-                        <img src="/assets/images/ic_notifications_white_24px.svg" />
+                    <div class="pushowl-widget-bell-container">
+                        <img src="/assets/images/ic_notifications_white_24px.svg" width="20" height="20" />
                     </div>
                     <div class="pushowl-widget-content">
                         <div class="pushowl-widget-message">Get notification on your computer for important events and updates.</div>
